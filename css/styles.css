@@ -283,7 +283,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color-subtitle, #2E2F42);
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 .textp {
