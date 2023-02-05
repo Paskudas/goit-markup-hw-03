@@ -32,6 +32,15 @@ body {
     --active-color: #404BBF;
     --accent-color: #4D5AE5;
 }
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.list {
+    list-style: none;
+}
 
 .allbackground {    
     position: relative;
@@ -39,7 +48,6 @@ body {
     height: 2590px;
     background: #FFFFFF;    
 }
-
 /*header*/
 /*logo*/
 .header {
@@ -123,9 +131,6 @@ body {
 }
 .contacts:hover,.contacts:focus {
     color: #404BBF;
-}
-.list {
-    list-style: none;
 }
 .header-cont {
   display: flex;
