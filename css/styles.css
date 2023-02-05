@@ -43,6 +43,12 @@ body {
     height: 2590px;
     background: #FFFFFF;    
 }
+.allbackgroundp {    
+    position: relative;
+    width: 1440px;
+    height: 2074px;
+    background: #FFFFFF;    
+}
 /*header*/
 /*logo*/
 .header {
@@ -224,6 +230,14 @@ body {
     top: 2280px;
     background-color: #2E2F42;    
 }
+.backgroundfooterp {
+    position: absolute;
+    width: 1440px;
+    height: 310px;
+    top: 1764px;
+    background-color: #2E2F42; 
+       
+}
 /*text*/
 .textcolor {
     color: #2e2f42;
@@ -240,7 +254,8 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     display: block;
-    margin: 0 auto 48px;           
+    margin: 0 auto 48px;
+    b           
 }
 .texth2 {
     font-size: 36px;
@@ -281,7 +296,7 @@ body {
     letter-spacing: 0.02em;
     max-width: 264px;    
     margin-top: 16px;
-}
+}    
 /*portfolio*/
 .filters {
     padding-top: 96px;
