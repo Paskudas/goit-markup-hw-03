@@ -32,12 +32,7 @@ body {
     --active-color: #404BBF;
     --accent-color: #4D5AE5;
 }
-.container {
-    width: 100%;
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+
 .list {
     list-style: none;
 }
@@ -63,11 +58,10 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
-  outline: 2px; 
+  /*outline: 2px;*/     
 }
 .header-container {
   display: flex;
@@ -227,6 +221,7 @@ body {
     height: 310px;
     top: 2280px;
     background-color: #2E2F42;
+    
 }
 /*text*/
 .textcolor {
@@ -275,13 +270,13 @@ body {
     font-size: 16px;
     line-height: 1,5;
 }
-.footertext{
-    position: absolute;
-    width: 264px;
-    height: 72px;
-    top: 2418px;
-    left: 156px;
+.footertext{    
     color: #E7E9FC;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 264px;    
+    margin-top: 16px;
 }
 /*buttom*/
 .indexbtn {
