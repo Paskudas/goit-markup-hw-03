@@ -85,7 +85,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,16;
+    line-height: 1.16;
     color: #4D5AE5;
     text-decoration: none;
     margin-right: 130px;
@@ -94,7 +94,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,16;
+    line-height: 1.16;
     color: #2E2F42;
 }
 .logostudiofooter {
@@ -112,7 +112,7 @@ body {
 .nav-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
@@ -126,7 +126,7 @@ body {
 .contacts {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
@@ -287,7 +287,7 @@ body {
     margin-bottom: 8px;
 }
 .textp {
-    ont-size: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-color-text, #434455);
@@ -301,7 +301,7 @@ body {
 }
 .textstyle2 {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
 }
 .footertext{    
     color: #E7E9FC;
