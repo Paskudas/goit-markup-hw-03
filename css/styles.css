@@ -73,6 +73,12 @@ body {
   display: flex;
   align-items: center;
 }
+.containerf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+}
 .header-navigation {
   display: flex;
   align-items: center;
@@ -254,7 +260,7 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto 48px;
-    b           
+    padding-top: 188px;           
 }
 .texth2 {
     font-size: 36px;
@@ -295,7 +301,7 @@ body {
     letter-spacing: 0.02em;
     max-width: 264px;    
     margin-top: 16px;
-}    
+}  
 /*portfolio*/
 .filters {
     padding-top: 96px;
