@@ -267,8 +267,8 @@ body {
     height: 732px;
     left: 0px;
     top: 1548px;
-    background: #F4F4FD;*/
-    padding-top: 32px;
+    padding-top: 32px;*/
+    background: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -282,7 +282,7 @@ body {
 }
 .ourteam2 {
     display: flex;
-    gap: 32px;
+    gap: 24px;
     /*padding: 0px 0px 32px;
     margin-bottom: 72px;    
     justify-content: center;
