@@ -36,8 +36,8 @@ body {
 
 .allbackground {    
     position: relative;
-    width: 1440px;
-    height: 2590px;
+    /*width: 1440px;
+    height: 2590px;*/
     background: #FFFFFF;    
 }
 .allbackgroundp {    
@@ -52,9 +52,9 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   box-sizing: border-box;
-  position: absolute;
+  /*position: absolute;
   width: 1440px;
-  height: 72px;
+  height: 72px;*/
   left: 0px;
   top: 0px;
   background: #FFFFFF;
@@ -144,7 +144,7 @@ body {
 }
 /*main*/
 .visually-hidden {
-    position: absolute;
+    /*position: absolute;*/
     white-space: nowrap;
     width: 1px;
     height: 1px;
@@ -156,14 +156,16 @@ body {
     margin: -1px;
 }
 .mainindex {
-    position: absolute;
+    /*position: absolute;
     width: 1440px;
-    height: 600px;
+    height: 600px;*/
     left: 0px;
     top: 72px;
     padding-top: 188;
     padding-bottom: 188;
     background: #2E2F42;
+    padding-top: 24;
+    padding-bottom: 24;
 }
 .values {
     padding-top: 120px;
@@ -176,7 +178,7 @@ body {
     display: flex;
     gap: 24px;
     flex-direction: row;
-    position: absolute;
+    /*position: absolute;*/
     width: 1128px;
     height: 104px;
     left: 156px;
@@ -184,7 +186,7 @@ body {
     background: #FFFFFF;
 }
 .wawd {
-    position: absolute;
+    /*position: absolute;*/
     text-align: center;
     width: 1128px;
     height: 412px;
@@ -202,7 +204,7 @@ body {
     border: 1px solid #E7E9FC;
 }
 .ourteam {    
-    position: absolute;
+    /*position: absolute;*/
     text-align: center;
     width: 1440px;
     height: 732px;
@@ -214,17 +216,17 @@ body {
 }
 .ourteam2 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
     padding: 0px 0px 32px;
-    gap: 32px;    
+    gap: 32px;
+    margin-bottom: 72px;    
+    justify-content: center;
+    align-items: center;
+    /*flex-direction: row;
+    flex-direction: column;    
     height: 380px;
     left: 1020px;
     top: 1780px;
-    /*background: #FFFFFF;*/
-    margin-bottom: 72px;        
+    background: #FFFFFF;*/         
 }
 .ourteam3 {
     /*box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);*/
@@ -237,17 +239,17 @@ body {
     text-align: center;
 }
 .backgroundfooter {
-    position: absolute;
+    /*position: absolute;
     width: 1440px;
     height: 310px;
-    top: 2280px;
+    top: 2280px;*/
     background-color: #2E2F42;    
 }
 .backgroundfooterp {
-    position: absolute;
+    /*position: absolute;
     width: 1440px;
     height: 310px;
-    top: 1764px;
+    top: 1764px;*/
     background-color: #2E2F42;       
 }
 /*text*/
@@ -330,7 +332,7 @@ body {
 }
 .p-item {
     background-color: #fff;
-    /*width: calc((100% - 48px) / 3);*/
+    width: calc((100% - 48px) / 3);
     border-right: 1px solid #fce7e7;
     border-bottom: 1px solid #fce7e7;
     border-left: 1px solid #fce7e7;
@@ -344,10 +346,10 @@ body {
 .indexbtn {
     /*display: flex;
     flex-direction: row;
-    align-items: flex-start;*/
+    align-items: flex-start;
+    position: absolute;*/
     padding: 16px 32px;
-    gap: 10px;
-    position: absolute;
+    gap: 10px;    
     min-width: 169px;
     height: 56px;
     left: 636px;
